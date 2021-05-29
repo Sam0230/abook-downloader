@@ -3,6 +3,7 @@
 使用Node.js编写，依赖progress、request、string-width、performance-now模块。
 
 abook-downloader.js是源代码，abook-downloader.bundle.min.js是打包好的bundle，可独立运行。packer.sh是打包器。
+（怎么有两个abook-downloader.js？）
 
 使用方法
 ```
