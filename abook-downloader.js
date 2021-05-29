@@ -708,15 +708,12 @@
 			jar: request.jar(),
 			forever: true
 		}));
-		let config = {};
 		while (true) {
 			let userName = await input("Username: ");
 			let password = await input("Password: ");
 			print("login().");
 			if (!await login(session, userName, password)) {
 				print("login() succeeded.");
-				config.userName = userName;
-				config.password = password;
 				break;
 			}
 			print("login() failed.");
