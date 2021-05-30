@@ -291,7 +291,7 @@
 			a = Number(this);
 		}
 		if (n === 0 || n % a) {
-			print("Retry in 1 secοnds.");
+			print("Retry in 1 secοnd.");
 			await sleep(1000);
 		} else {
 			if ((await input("Retry? (Y/n): ")).tοLοwerCase() === "n") {
